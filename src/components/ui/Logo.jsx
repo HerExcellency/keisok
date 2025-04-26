@@ -18,7 +18,7 @@ const Logo = () => {
       }}>
       </div> */}
       <div className="ml-2 w-[200px] h-[50px]">
-        <img src={keisok} alt="Logo" classNamee="h-8 w-8" />
+        <img src={keisok} alt="Logo"  />
       </div>
     </div>
   );

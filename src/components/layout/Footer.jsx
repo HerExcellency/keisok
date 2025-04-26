@@ -21,7 +21,9 @@ return (
   <div className="flex space-x-4 mt-6">
     {/* <SocialLink icon={<Facebook size={20} />} /> */}
     {/* <SocialLink icon={<Twitter size={20} />} /> */}
-    <SocialLink icon={<Linkedin size={20} />} />
+    {/* <a href="//www.linkedin.com/in/keisok-services-b5322234b/?originalSubdomain=ng"> */}
+      <SocialLink icon={<Linkedin size={20} />} />
+    {/* </a> */}
     {/* <SocialLink icon={<Instagram size={20} />} /> */}
   </div>
 </div>
@@ -121,7 +123,7 @@ const theme = useTheme();
 
 return (
 <a 
-href="#" 
+href="//www.linkedin.com/in/keisok-services-b5322234b/?originalSubdomain=ng" 
 className="flex items-center justify-center w-10 h-10 rounded-full"
 style={{ 
 color: theme.colors.gray,

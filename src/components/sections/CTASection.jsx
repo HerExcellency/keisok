@@ -3,9 +3,24 @@ import React from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import Button from '../ui/Button';
 import Card from '../ui/Card';
+import ConsultationFormModal from '../ui/ConsultationModal'; // Import the modal component
+import { useState } from 'react';
+
+
+
 
 const CTASection = () => {
 const theme = useTheme();
+const [isModalOpen, setIsModalOpen] = useState(false); // State to control modal visibility
+
+const openModal = () => {
+  setIsModalOpen(true);
+}
+
+
+const closeModal = () => {
+  setIsModalOpen(false);
+};
 
 return (
 <section id="contact" className="py-20">
@@ -61,6 +76,17 @@ return (
     <Button variant="primary" size="lg">
       Schedule a Consultation
     </Button>
+     {/* <Button 
+        variant="primary" 
+        size="lg" 
+        onClick={openModal}
+      >
+        Schedule a Consultation
+      </Button> */}
+      <ConsultationFormModal 
+        isOpen={isModalOpen} 
+        onClose={closeModal} 
+      />
     
     <Button variant="secondary" size="lg" href="mailto:services@keisok.com">
       Email Us

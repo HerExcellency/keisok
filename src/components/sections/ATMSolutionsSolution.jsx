@@ -5,7 +5,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import Badge from '../ui/Badge';
 import Button from '../ui/Button';
 import Card from '../ui/Card';
-import atmImage from '../../assets/img/cardAtm.jpg'
+import atmImage from '../../assets/img/seven.avif'
 
 const ATMSolutionsSection = () => {
 const theme = useTheme();

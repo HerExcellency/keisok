@@ -1,0 +1,25 @@
+{
+    "forms": {
+      "consultation-form": {
+        "name": "Consultation Request Form",
+        "actions": [
+          {
+            "type": "email",
+            "to": "services@keisok.com"
+          }
+        ],
+        "fields": {
+          "name": {
+            "required": true
+          },
+          "email": {
+            "required": true,
+            "type": "email"
+          },
+          "message": {
+            "required": true
+          }
+        }
+      }
+    }
+  }
