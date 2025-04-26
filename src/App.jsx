@@ -10,7 +10,7 @@ import ClientsCarousel from './components/sections/ClientsCarousel';
 import CTASection from './components/sections/CTASection';
 import Footer from './components/layout/Footer';
 import { ThemeProvider } from './components/contexts/ThemeContext';
-
+import './App.css'
 function App() {
   return (
     <ThemeProvider>
