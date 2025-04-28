@@ -155,7 +155,7 @@ const HeroSection = () => {
           {/* Enlarged and centered image display area */}
           <div className="relative h-[600px] flex items-center justify-center mx-auto">
             <div 
-              className="relative w-full max-w-[400px] h-[500px] flex justify-center items-center"
+              className="relative w-full max-w-[300px] lg:w-[] lg:h-[500px] h-[400px] flex justify-center items-center"
               style={{ 
                 perspective: '1000px',
                 transformStyle: 'preserve-3d'
@@ -257,9 +257,8 @@ const HeroSection = () => {
               >
                 <div className="relative">
                   {/* Main card */}
-                  <div style={{ 
-                    width: '350px',
-                    height: '220px',
+                  <div className="w-[302px] lg:w-[350px] md:w-[350px] h-[179px] md:h-[220px] lg:[220px]" style={{ 
+                    
                     borderRadius: theme.borderRadius.lg,
                     background: cardDesigns[currentCardIndex].background,
                     boxShadow: '10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.1)',
@@ -378,9 +377,8 @@ const HeroSection = () => {
                   </div>
                   
                   {/* Second card for layered effect */}
-                  <div style={{ 
-                    width: '350px',
-                    height: '220px',
+                  <div className="w-[302px] lg:w-[350px] md:w-[350px] h-[179px] md:h-[220px] lg:[220px]" style={{ 
+                    
                     borderRadius: theme.borderRadius.lg,
                     background: theme.colors.secondary,
                     boxShadow: '10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.1)',
