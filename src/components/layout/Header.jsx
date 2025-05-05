@@ -1,5 +1,5 @@
 // components/Header.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ArrowRight, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import Logo from '../ui/Logo';
@@ -69,12 +69,20 @@ const Header = ({ isScrolled }) => {
 
 const NavLinks = () => {
   const theme = useTheme();
+  const [currentPath, setCurrentPath] = useState('/');
+  
+  useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+  
+  const isHomePage = currentPath === '/' || currentPath === '/index.html';
+  
   const links = [
-    { title: 'Home', url: '#' },
-    { title: 'Services', url: '#services' },
-    { title: 'ATM Solutions', url: '#atm-solutions' },
-    { title: 'Why Us?', url: '#why-us?' },
-    { title: 'Contact', url: '#contact' },
+    { title: 'Home', url: '/' },
+    { title: 'Services', url: isHomePage ? '#services' : '/#services' },
+    { title: 'Solutions', url: isHomePage ? '#atm-solutions' : '/#atm-solutions' },
+    { title: 'Why Us?', url: isHomePage ? '#why-us?' : '/#why-us?' },
+    { title: 'Contact', url: isHomePage ? '#contact' : '/#contact' },
   ];
 
   return (
@@ -101,12 +109,20 @@ const NavLinks = () => {
 
 const MobileNavLinks = ({ closeMobileMenu }) => {
   const theme = useTheme();
+  const [currentPath, setCurrentPath] = useState('/');
+  
+  useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+  
+  const isHomePage = currentPath === '/' || currentPath === '/index.html';
+  
   const links = [
-    { title: 'Home', url: '#' },
-    { title: 'Services', url: '#services' },
-    { title: 'ATM Solutions', url: '#atm-solutions' },
-    { title: 'About Us', url: '#about' },
-    { title: 'Contact', url: '#contact' },
+    { title: 'Home', url: '/' },
+    { title: 'Services', url: isHomePage ? '#services' : '/#services' },
+    { title: 'Solutions', url: isHomePage ? '#atm-solutions' : '/#atm-solutions' },
+    { title: 'About Us', url: isHomePage ? '#about' : '/#about' },
+    { title: 'Contact', url: isHomePage ? '#contact' : '/#contact' },
   ];
 
   return (
@@ -127,4 +143,3 @@ const MobileNavLinks = ({ closeMobileMenu }) => {
 };
 
 export default Header;
-
