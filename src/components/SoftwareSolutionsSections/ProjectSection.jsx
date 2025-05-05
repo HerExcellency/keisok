@@ -11,7 +11,7 @@ import ProjectDetail from './ProjectDetails';
 // Import project images using Vite's import mechanism directly
 // You would replace these with actual project images
 import projectOne from '../../assets/img/saas/buildas.png';
-import projectTwo from '../../assets/img/saas/check.png';
+import projectTwo from '../../assets/img/saas/Check.png';
 import projectThree from '../../assets/img/saas/tiny.png';
 import projectFour from '../../assets/img/saas/recycle.png';
 import projectFive from '../../assets/img/saas/care.png';
