@@ -13,7 +13,7 @@ import ProjectDetail from './ProjectDetails';
 import projectOne from '../../assets/img/saas/buildas.png';
 import projectTwo from '../../assets/img/saas/Check.png';
 import projectThree from '../../assets/img/saas/tiny.png';
-import projectFour from '../../assets/img/saas/recycle.png';
+import projectFour from '../../assets/img/saas/Recycle.png';
 import projectFive from '../../assets/img/saas/care.png';
 
 import projectSix from '../../assets/img/saas/triage.png';
