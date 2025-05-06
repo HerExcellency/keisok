@@ -37,7 +37,7 @@ color: "secondaryLight"
 ];
 
 return (
-<section id="why-us?" className="py-20 relative" style={{ background: theme.colors.light }}>
+<section id="why-us?" className="py-12  lg:py-20 relative" style={{ background: theme.colors.light }}>
 {/* Background Accent Elements */}
 <div style={{ 
 position: 'absolute',

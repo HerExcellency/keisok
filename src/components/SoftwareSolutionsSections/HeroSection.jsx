@@ -20,7 +20,7 @@ const HeroSection = () => {
               Custom Software Development
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-[2rem] md:text-5xl lg:text-5xl font-bold mb-6 leading-tight">
             Custom Software <br/>
               <span style={{ 
                 background: theme.gradients.primary,

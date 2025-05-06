@@ -7,7 +7,7 @@ const ServiceCard = ({ icon, title, description }) => {
   const theme = useTheme();
   
   return (
-    <Card className="p-6 hover:shadow-lg transition-shadow duration-300">
+    <Card className="p-4 lg:p-6 hover:shadow-lg transition-shadow duration-300">
       <div 
         className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
         style={{ background: theme.gradients.primary }}

@@ -112,7 +112,7 @@ const HeroSection = () => {
   }, [currentView, cardDesigns.length]);
   
   return (
-    <section className="py-20 md:py-32 relative overflow-hidden">
+    <section className="py-12  lg:py-20 md:py-32 relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
@@ -120,7 +120,7 @@ const HeroSection = () => {
               Fintech Solutions Provider
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-[2rem] md:text-5xl lg:text-5xl font-bold mb-6 leading-tight">
               Advanced ATM <br/>
               <span style={{ 
                 background: theme.gradients.primary,

@@ -2,7 +2,7 @@
 // components/ui/Logo.jsx
 import React from 'react';
 import { useTheme } from '../contexts/ThemeContext';
-import keisok from '../../assets/img/keisok.png'
+import keisok from '../../assets/img/keisokBg.png'
 
 
 const Logo = () => {

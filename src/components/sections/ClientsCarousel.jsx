@@ -45,7 +45,7 @@ const ClientsCarousel = () => {
   };
   
   return (
-    <section className="py-20 relative">
+    <section className="py-12  lg:py-20 relative">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-12">
           <Badge color="primary" className="mb-4">

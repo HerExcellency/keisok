@@ -37,7 +37,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="services" className="py-20 md:py-32">
+    <section id="services" className="py-12  lg:py-20 md:py-32">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <Badge color="primary" className="mb-4">

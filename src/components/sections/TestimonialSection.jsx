@@ -39,7 +39,7 @@ setActiveTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.l
 };
 
 return (
-<section className="py-20 relative" style={{ background: theme.colors.light }}>
+<section className="py-12  lg:py-20 relative" style={{ background: theme.colors.light }}>
 <div className="container mx-auto px-4 lg:px-8">
 <div className="text-center mb-12">
 <Badge color="primary" className="mb-4">

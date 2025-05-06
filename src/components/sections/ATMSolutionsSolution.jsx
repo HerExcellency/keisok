@@ -19,7 +19,7 @@ const features = [
 ];
 
 return (
-<section id="atm-solutions" className="py-20 md:py-32 relative">
+<section id="atm-solutions" className="py-12 lg:py-20 md:py-32 relative">
 {/* Background accent element */}
 <div style={{ 
 position: 'absolute',

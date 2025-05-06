@@ -23,7 +23,7 @@ const closeModal = () => {
 };
 
 return (
-<section id="contact" className="py-20">
+<section id="contact" className="py-12  lg:py-20">
 <div className="container mx-auto px-4 lg:px-8">
 <Card className="p-10 lg:p-16 text-center relative overflow-hidden">
 {/* Background accent elements */}
