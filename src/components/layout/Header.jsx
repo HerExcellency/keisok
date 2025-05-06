@@ -79,6 +79,7 @@ const NavLinks = () => {
   
   const links = [
     { title: 'Home', url: '/' },
+    { title: 'Software', url: '/Saas' },
     { title: 'Services', url: isHomePage ? '#services' : '/#services' },
     { title: 'Solutions', url: isHomePage ? '#atm-solutions' : '/#atm-solutions' },
     { title: 'Why Us?', url: isHomePage ? '#why-us?' : '/#why-us?' },
@@ -119,6 +120,7 @@ const MobileNavLinks = ({ closeMobileMenu }) => {
   
   const links = [
     { title: 'Home', url: '/' },
+    { title: 'Software', url: '/Saas' },
     { title: 'Services', url: isHomePage ? '#services' : '/#services' },
     { title: 'Solutions', url: isHomePage ? '#atm-solutions' : '/#atm-solutions' },
     { title: 'About Us', url: isHomePage ? '#about' : '/#about' },
