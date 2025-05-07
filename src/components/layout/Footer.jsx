@@ -74,12 +74,12 @@ return (
         46 Babatunde Famori Street, Lagos, Nigeria
       </span>
     </li> */}
-    <li className="flex items-center cursor-pointer" onClick={() => window.location.href = 'tel:+2348034376315'}>
+    {/* <li className="flex items-center cursor-pointer" onClick={() => window.location.href = 'tel:+2348034376315'}>
       <Phone className="w-5 h-5 mr-2" style={{ color: theme.colors.primary }} />
       <span style={{ color: theme.colors.gray }}>
         +234 (0) 803 437 6315
       </span>
-    </li>
+    </li> */}
     <li className="flex items-center cursor-pointer" onClick={() => window.location.href = 'mailto:services@keisokintegratedservices.com'}>
       <Mail className="w-5 h-5 mr-2" style={{ color: theme.colors.primary }} />
       <span style={{ color: theme.colors.gray }}>

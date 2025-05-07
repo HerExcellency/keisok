@@ -73,9 +73,9 @@ return (
   </p>
   
   <div className="flex flex-col sm:flex-row justify-center gap-4">
-    <Button variant="primary" size="lg">
+    {/* <Button variant="primary" size="lg">
       Schedule a Consultation
-    </Button>
+    </Button> */}
      {/* <Button 
         variant="primary" 
         size="lg" 
@@ -88,7 +88,7 @@ return (
         onClose={closeModal} 
       />
     
-    <Button variant="secondary" size="lg" href="mailto:services@keisok.com">
+    <Button variant="primary" size="lg" href="mailto:services@keisok.com">
       Email Us
     </Button>
   </div>
